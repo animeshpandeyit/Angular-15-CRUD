@@ -1,7 +1,6 @@
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -20,11 +19,9 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { MatChipsModule } from '@angular/material/chips';
-
 import { HttpClientModule } from '@angular/common/http';
 import { NgToastModule } from 'ng-angular-popup';
 import { NgConfirmModule } from 'ng-confirm-box';
-
 import { RegistrationListComponent } from './registration-list/registration-list.component';
 import { CreateRegistrationComponent } from './create-registration/create-registration.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
